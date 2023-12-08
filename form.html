@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        body{
+            border: 10px double purple;
+            padding:30px;
+            background-image: -webkit-image-set("./img 1.jpg");
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bolder;
+        }
+        .para
+        {
+            margin-left: 150px;
+            font-size: 30px;
+        }
+        #textbox{
+            margin-left: 150px;
+            margin-top: 20px;
+            padding: 10px;
+            border-radius: 10px;
+            /* align-items: end; */
+        }
+
+    </style>
+</head>
+<body>
+    <p class="para">Fill Your Details</p>
+    <form >
+        <input type="text" placeholder="Name" id="textbox" required>
+        <br>
+        <!-- <p>password</p> -->
+        <!-- <input type="password" placeholder="PassWord" required> -->
+        <!-- <p>Email</p> -->
+        <input type="text" placeholder="Age" id="textbox" required>
+        <input type="email" placeholder="Email" id="textbox" required>
+        <!-- <p>Example for radio button</p> -->
+        <br><br>
+        <label>Gender : </label>
+        <input type="radio" name="gender"/>
+        <label>Male</label>
+        <input type="radio" name="gender"/>
+        <label>Female</label>
+        <br>
+        <br>
+        <!-- <p>Example for CheckBox</p> -->
+        <label>What you need :</label>
+        <input type="checkbox" name="fru"/>
+        <label>seeds</label>
+        <input type="checkbox" name="fru"/>
+        <label>Just grown</label>
+        <br><br>
+        <label id="textbox" >Choose plant : </label>
+        <select >
+            <option>rose</option>
+            <option>lilly</option>
+            <option>sunflower</option>
+            <option>orchids</option>
+            <option>Lavender</option>
+            <option>Hypiscys</option>
+            <option>Green Bliss</option>
+            <option>ArborIron</option>
+            <option>Armorflor</option>
+            <option>Green Ivy</option>
+            <option>BloomBoosters</option>
+            <option>FloraFusion</option>
+            <option>Ageratum</option>
+            <option>Allium</option>
+            <option>Balloon Flower</option>
+            <option>Begonia</option>
+        </select>
+        <br><br>
+        <label>Address : </label>
+        <input type="textarea"  />
+        <p>Give your Preferences</p>
+        <input type="file" /> 
+        <br><br>
+        <input type="submit" /> 
+        <!-- <input type="reset" />  -->
+    </form>
+</body>
+</html>
